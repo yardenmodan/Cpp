@@ -44,17 +44,7 @@ class Equation{
         }
         
     }
-    // std::size_t get_solutions_size(){
-    //     int discriminant=pow(m_b,2) -4*m_a*m_c;
-    //     solutions_size=0;
-    //     if (discriminant>0){
-    //         solutions_size=2;
-    //     }
-    //     else if (discriminant==0){
-    //         solutions_size=1;
-    //     }
-    //     return solutions_size;
-    // }
+    
     public:
     Equation(double a, double b, double c): m_a(a), m_b(b), m_c(c){
         if (a==0){
